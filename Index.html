@@ -4,84 +4,147 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" type="image/png" href="images/favicon.png"
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
     <title>Hola soy Jhonatan Rojas</title>
 </head>
 <body>
-    <header>
-        <div>
-            <figure>
-                <img src="" alt="logo de http://jhonatanrojasbastidas.com">logo
-            </figure>
-        </div>
-     <nav>
+    <header class="header">
+      <div class="container">
+        <figure class="logo">
+          <img src="images/logo jrb.png"  height="100px" width="100px"alt="logo de http://jhonatanrojasbastidas.com">
+        </figure>
+        <nav class="menu">
          <ol>
              <li>
                  <a href="#portafolio">Portafolio</a>
              </li>
              <li>
                  <a href="#certificados">Certificados</a>
-                  <ul>
-                      <li>
-                        <a href="#sena">Sena</a>
-                      </li> 
-                      <li>
+                   <ul>
+                     <li>
+                       <a href="#sena">Sena</a>
+                     </li>
+                     <li>
                         <a href="#platzi">Platzi</a>
-                      </li> 
-                 </ul>
-             </li>
-             <li>
+                     </li>
+                   </ul>
+              </li>
+              <li>
+                <a href="#Softskills">Softskills</a>
+              </li>
+              <li>
                  <a href="#contacto">Trabajemos juntos</a>
-             </li>
+              </li>
          </ol>
-     </nav>
+        </nav>
+      </div>
     </header>
-    <section>
+    <section class="hero">
+      <div class="container">
         <h1>
-            ¡Hola! soy Jhonatan Rojas <br/> Estudiante en Platzi
-            <br/> Enfocado en convertirme en <strong>desarrollador Full Stack</strong>
+            ¡Hola! soy <strong>Jhonatan Rojas</strong> <br/> Estudiante en <strong>Platzi</strong>
+            <br/> Enfocado en convertirme en <strong>Desarrollador Full Stack</strong>
         </h1>
-        <img src="images/Hero.jpg" width="500" height="300" alt="imagen hero">
+         <img src="images/Hero.jpg" class="hero-image" width="500" height="300" alt="imagen hero">
+      </div>
     </section>
     <section id="portafolio">
-     <h2>Portafolio (proyectos destacados)</h2>
-     <article>
-         <h3>Proyectos en Platzi / Grupo de estudio</h3>
-         <p>Gracias a las habilidades que he adquirido en la plataforma de platzi, he creado <a href="https://github.com/jhonatanrojasbastidas">mi perfil</a> en 
-            la plataforma de Github en la cuál encontraras los repositorios en los cuales 
+      <div class="container">
+        <h2>Portafolio (proyectos destacados)</h2>
+        <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">Proyectos en Github / Real Tech Skills By Capa 8</h3>
+              <p>Gracias a las habilidades que he adquirido en la plataforma de platzi, he creado <strong><em><a class="project-a" href="https://github.com/jhonatanrojasbastidas" target="_blank">mi perfil</a></em></strong> en
+            la plataforma de Github en la cuál encontraras los repositorios en los cuales
             he trabajado.
-            Soy parte de un equipo en github (<a href="https://github.com/rtsc8">RTSC8</a>), en el cual trabajamos actualemente en una
-            página de un hostal, aprendiendo a trabajar en equipo y nos reunimos cada jueves. </p>
-            <img src="images/grupal.jpg" alt="foto del grupo de los jueves" width="500" height="300">
-     </article>
+            Soy parte de un equipo en github (<strong><em><a class="project-a" href="https://github.com/rtsc8" target="_blank">RTSC8</a></em></strong>), en el cual trabajamos actualemente en una
+            página de un hostal, aprendiendo a trabajar en equipo, nos reunimos cada jueves en las instalaciones de HUGE.
+              </p>
+         </div>
+           <figure class="project-imageContainer">
+             <span class="Span-footpage"> Fotografía del grupo de estudio RTSC8 en HUGE</span>
+           </figure>
+        </article>
+      </div>
     </section>
     <section id="certificados">
-     <h2>Certificados</h2>
-      <article>
-              <h3 id="sena">Sena</h3>
-          <figure>
-              <img src="images/aprendiz digital.jpg" alt="certificado aprendiz digital" width="637" height="487">
-              <img src="images/gestión de la seguridad informatica.jpg" alt="certificado gestion seguridad informatica" width="318" heigth="413">
-              <img src="images/arquitectura computadoras.jpg" alt="certificado arquitectura computadoras" width="318" heigth="413">
+      <div class="container">
+        <h2>Certificados</h2>
+      <article class="project-certificados">
+        <h3 id="sena">Sena</h3>
+          <figure class="project-certificadossize">
+              <img src="images/aprendiz digital.jpg" alt="certificado aprendiz digital" width="275" height="243">
+              <img src="images/gestión de la seguridad informatica.jpg" alt="certificado gestion seguridad informatica" width="275" heigth="413">
+              <img src="images/arquitectura computadoras.jpg" alt="certificado arquitectura computadoras" width="275" heigth="413">
           </figure>
           <h3 id="platzi">Platzi</h3>
-          <figure>
-              <img src="images/carrera ingles.jpg" alt="certificado carrera ingles" width="550" height="425">
-              <img src="images/programación básica.jpg" alt="certificado programación básica" width="550" height="425">
-              <img src="images/git y github.jpg" alt="certificado git y github" width="550 height="425">
-              <img src="images/introducción terminal y línea de comandos.jpg" alt="certificado terminal" width="550" height="425">
-              <img src="images/fundamentos ingenieria de software.jpg" alt="certificado fundamentos" width="550" height="425">
+          <figure class="project-certificadossize">
+              <img src="images/carrera ingles.jpg" alt="certificado carrera ingles" width="275" height="214">
+              <img src="images/programación básica.jpg" alt="certificado programación básica" width="275" height="214">
+              <img src="images/git y github.jpg" alt="certificado git y github" width="275" height="214">
+              <img src="images/introducción terminal y línea de comandos.jpg" alt="certificado terminal" width="275" height="214">
+              <img src="images/fundamentos ingenieria de software.jpg" alt="certificado fundamentos" width="275" height="214">
           </figure>
       </article>
+     </div>
     </section>
-    <section id="contacto">
-        <form action="/suscripcion/">
+    <section id="Softskills">
+      <div class="container">
+        <h2>Soft skills</h2>
+      <article class="project">
+       <div class="project-details">
+         <h3 class="project-title">Emprendimientos/ Logistica</h3>
+         <p>En el 2009, se inicia mi emprendimiento <strong><em><a class="softskills-a" href="https://www.facebook.com/ShopAthenaStore/" target="_blank">Athena Store Videojuegos</a></em></strong>, en el area de stands de la empresa <a class="softskills-a" href="https://www.facebook.com/shinanime.festival/" target="_blank"><strong><em>SHINANIME</em></strong></a> radicada en la ciudad de Santiago de cali,
+           durante el tiempo que participe en el evento no solo hice las veces de stand invitado sino que poco a poco comenze a participar de forma activa en las
+           actividades relacionadas con los videojuegos(torneos, inscripciones y logistica); en el 2015, gracias a un equipo de trabajo consolidado por jugadores ,vendedores,
+           desarrolladores y geeks, pudimos desarrollar un evento llamado <a class="softskills-a" href="https://www.facebook.com/CAMBIATONVIDEOJUEGOSCOLOMBIA/" target="_blank"><strong><em>CAMBIATON VIDEOJUEGOS</em></strong></a>. En este la dinámica es el intercambio de videojuegos, compra y venta de estos
+           ya sea por empresas consolidades y pequeños emprendedores. Con él comenze a desarrollar cualidades de liderazgo, establecer metas puntuales, aplicar una campaña a través de redes sociales para una mejor comunicación
+           y distribución con el asistente y sobre todo habilidades de trabajo en equipo asignando roles.
+           Gracias a estas actividades fui invitado por el <a class="softskills-a" href="https://www.colomboamericano.edu.co/" target="_blank"><strong><em>Centro Cultural Colombo americano</em></strong></a> a desarrollar junto a su equipo de trabajo el evento <strong><em><a class="softskills-a" href="https://www.facebook.com/colomboamericano/photos/a.170226026341729/2155274317836880/?type=3&theater" target="_blank">GAME ON</a></em></strong>.
+           Ahora estoy tomando cursos profesionales complementando mi formación en tech; siempre buscando hacer parte la comunidad gamer del país.
+         </p>
+        </div>
+        <article class="event">
+          <figure class="Softskills-imageContainer">
+            <span class="Span-footpage">Fotografía tomada en el <em><strong><a class="span-a" href="https://www.youtube.com/watch?v=Tyri4tVfr_4&t=38s" target="_blank">GAME ON</a></strong></em>.</span>
+          </figure>
+          <div class="event-detail">
+            <h3 class="event-title">Game On</h3>
+            <p class="event-description">Evento que reune a los seguidores de videojuegos retro en la ciudad de Santiago de Cali.</p>
+            <a class="event-url" href="https://www.youtube.com/watch?v=Tyri4tVfr_4&t=38s" target="_blank"> Video de tour por el museo de videojuegos</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="contacto" class="contact">
+      <div class="container">
+        <form action="/suscripcion/" class="form-email">
          <h3>¿creamos algo juntos?</h3>
             <input type="text" placeholder="Déjame tu email" >
-            <input type="submit" value="texto del botón">
+
             <button>enviar</button>
         </form>
+        <div class="social">
+          <a href="https://twitter.com/Johnreds89" class="social-link twitter" target="_blank"></a>
+          <a href="https://www.facebook.com/johnathan.bastias" class="social-link facebook" target="_blank"></a>
+          <a href="https://github.com/jhonatanrojasbastidas" class="social-link github" target="_blank"></a>
+          <a href="https://www.instagram.com/jonatanrojasbastidas/?hl=es-la" class="social-link instagram" target="_blank"></a>
+          <a href="https://www.linkedin.com/in/jhonatan-rojas-bastidas-9362a215a/" class="social-link linkedin" target="_blank"></a>
+        </div>
+      </div>
     </section>
-    <footer>footer</footer>
+    <footer class="footer">
+      <div class="container">
+      <div>
+        <p>Aprendizaje gracias a curso de Desarrollo Web Online<a href="https://platzi.com/" target="_blank"><img src="images/platzi logo.webp" width="50px" height="50px" alt="platzi"></a></p>
+      </div>
+      <div>
+        <p>Hecho por Jhonatan Rojas Bastidas</p>
+      </div>
+      <div></div>
+    </div>
+    </footer>
 </body>
 </html>
